@@ -7,6 +7,21 @@
   --Light-Grayish-Blue: hsl(210, 46%, 95%);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--Grayish-Blue);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Light-Grayish-Blue);
+  border-radius: 10px;
+}
 /* Attribution */
 .attribution {
   font-size: 11px;
