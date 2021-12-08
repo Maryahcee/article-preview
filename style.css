@@ -42,6 +42,7 @@ body {
 h2.main-heading {
   color: var(--Very-Dark-Grayish-Blue);
   padding: 1.2rem;
+  font-weight: 700;
 }
 /* Attribution */
 .attribution {
