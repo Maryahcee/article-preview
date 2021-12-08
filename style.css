@@ -19,7 +19,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  font-size: 13px;
+  font-family: "Manrope", sans-serif;
 }
 
 .container {
@@ -36,6 +37,11 @@ body {
   width: 100%;
   margin-bottom: 1.2rem;
   border-radius: 10px 10px 0 0;
+}
+
+h2.main-heading {
+  color: var(--Very-Dark-Grayish-Blue);
+  padding: 1.2rem;
 }
 /* Attribution */
 .attribution {
